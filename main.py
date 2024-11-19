@@ -14,7 +14,7 @@ print()
 def make_shirt_modified(size='large', text='I love python'):
     print(f'The Shirt will be a {size} with the text "{text}".')
 
-make_shirt_modified('Medium')
+make_shirt_modified(size='Medium')
 make_shirt_modified()
 make_shirt_modified('small', 'Python? But i\'m afraid of snakes!')
 
